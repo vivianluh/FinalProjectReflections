@@ -1,0 +1,205 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* /SECTION 1/ */
+
+.spherebuild{
+    position: absolute;
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section1{
+    height: 400vh;
+    background-image: linear-gradient(to top, #2a9cff 0%, #0088ff 100%);
+}
+
+
+.introduction h1{
+    font-size: 60px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.introduction p{
+    font-size: 15px;
+    color: white;
+    margin: 0;
+    padding: 5%;
+    text-align: center;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* // */
+.quote h1{
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 144%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.quote p{
+    font-size: 15px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 156%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.build h1{
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* // */
+.explanation p{
+    font-size: 15px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 350%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+/* comparison image section  */
+
+.comparisonSection {
+    position: relative;
+    padding-bottom: 56.25%; /* to maintain aspect ratio (responsive!) */
+}
+
+.comparisonImage {
+    width: 100%;
+    height: 100%;
+}
+
+.afterImage {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    transform: translate(100%, 0px);
+}
+
+
+.afterImage img {
+    transform: translate(-100%, 0px);
+  
+}
+
+.comparisonImage img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+
+/* /SECTION 2/ */
+
+.section2{
+    height: 300vh;
+    background-image: linear-gradient(to top, #51abff 0%, #2a9cff 100%);
+}
+
+.process p{
+    font-size: 15px;
+    color: white;
+    margin: 0;
+    /* padding: 2%; */
+    text-align: center;
+    position: absolute;
+    top: 725%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.conceptual p{
+    font-size: 15px;
+    color: white;
+    margin: 0;
+    /* padding: 2%; */
+    text-align: center;
+    position: absolute;
+    top: 825%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.conclusion h1{
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    padding: 2%;
+    text-align: center;
+    position: absolute;
+    top: 921%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.conclusion p{
+    font-size: 15px;
+    color: white;
+    margin: 0;
+    padding: 5%;
+    text-align: center;
+    position: absolute;
+    top: 928%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* LIFT RAFT SPHERE IMAGE */
+
+.life-raft-sphere img{
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+

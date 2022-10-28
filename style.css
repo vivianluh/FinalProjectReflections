@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    overflow: scroll;
+}
+
+header, .introductory-sentence
+{
+    padding: 20%;
+    height: 100vh;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header h1
+{
+    color: #0500a4;
+    font-size: 45px;
+}
+
+.introductory h1{
+    font-size: 22px;
+}
+
+.introductory-sentence h1
+{
+    color: #0500a4;
+    font-size: 25px;
+}
+
+.introductory{
+    padding: 20%;
+    height: 100vh;
+    background-image: linear-gradient(to top, #00abfb 0%, #005bea 100%);
+    position: relative;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;   
+    color: white;
+}
+
+.life-buoy-image {
+    height: 300px;
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 0%;
+}
+
+
+.sphere-introduction{
+    height: 100vh;
+    text-align: center;
+    top: 50%;
+    
+}
+
+/* MAP */
+
+.map{
+    height: 400vh;
+    background-image: linear-gradient(to top, #ffda48 0%, #48cbff 5% , #000b7f 100%);
+}
+
+.title{
+    padding-top: 15%;
+    text-align: center;
+    color: white;
+}
+
+.title h1{
+    font-size: 45px;
+}
+
+.title p{
+    padding-top: 1%;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: 15px;
+}
+
+.sphereicon img{
+    height: 350px;
+    margin-top: 8%;
+    margin-left: 15%;   
+}
+
+.lawnicon img{
+    height: 350px;
+    margin-left: 55%;
+}
+
+.raticon img{
+    height: 350px;
+    margin-left: 25%;
+}
+
+.flowicon img{
+    height: 350px;
+    margin-left: 60%;
+}
+
+.promiseicon img{
+    height: 350px;
+    margin-left: 15%;
+}
+
+.joyicon img{
+    height: 350px;
+    margin-left: 50%; 
+}
+
+
+.future, .future2, .end2
+{
+    padding: 20%;
+    height: 100vh;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.future h1{
+    font-size: 20px;
+    color: #0500a4;
+}
+
+.future2 h1{
+    font-size: 20px;
+    color: #ffc800;
+}
+
+.end2 h1{
+    font-size: 20px;
+    color: #ff77f6;
+}
+
+
+
+
+.end{
+    margin-top: 18%;
+    text-align: center;
+    color: white;
+}
+
+.end p{
+    padding-top: 0;
+}
